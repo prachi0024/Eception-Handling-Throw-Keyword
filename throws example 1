@@ -1,0 +1,20 @@
+
+public class Throws {
+	static void CheckEligibility(int stuAge, int stuWeight)
+	{
+		if(stuAge<12 && stuWeight<35)
+		{
+			throw new ArithmeticException("not eligible for camp");
+		}
+		else
+		{
+			System.out.println("eligible for camp");
+		}
+	}
+
+	public static void main(String[] args) {
+		CheckEligibility(15, 30);
+
+	}
+
+}
