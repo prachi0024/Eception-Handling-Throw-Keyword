@@ -1,0 +1,14 @@
+
+public class ThrowsEx1 {
+	static void throwDemo()thorw null PointerException
+	{
+		System.out.println("Inside throwDemo Method");
+		throw new null Exception("null pointer exception ");
+	}
+
+	public static void main(String[] args) {
+	    throwDemo();
+
+	}
+
+}
